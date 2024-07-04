@@ -1,0 +1,217 @@
+### Send POST request with json body
+POST http://localhost:8000/api/artwork
+Content-Type: application/json
+
+{
+  "liked": false,
+  "tags": [
+    "NoAI",
+    "hardsurface",
+    "zbrush",
+    "sci-fi",
+    "concept art",
+    "jetpack",
+    "zbrush wip",
+    "3d sculpt",
+    "props",
+    "equipment",
+    "character design",
+    "science fiction"
+  ],
+  "hide_as_adult": false,
+  "visible_on_artstation": true,
+  "assets": [
+    {
+      "has_image": true,
+      "has_embedded_player": false,
+      "player_embedded": null,
+      "oembed": null,
+      "id": 73286066,
+      "title": "",
+      "title_formatted": "",
+      "image_url": "https://cdna.artstation.com/p/assets/images/images/073/286/066/large/dima-yakutin-post-44-text.jpg?1709304111",
+      "width": 3608,
+      "height": 2507,
+      "position": 0,
+      "asset_type": "image",
+      "viewport_constraint_type": "maximized"
+    },
+    {
+      "has_image": false,
+      "has_embedded_player": false,
+      "player_embedded": null,
+      "oembed": null,
+      "id": 73286197,
+      "title": null,
+      "title_formatted": "",
+      "image_url": "https://cdnb.artstation.com/p/assets/covers/images/073/286/197/large/dima-yakutin-dima-yakutin-thumbnail.jpg?1709304335",
+      "width": 2000,
+      "height": 2000,
+      "position": 0,
+      "asset_type": "cover",
+      "viewport_constraint_type": "constrained"
+    },
+    {
+      "has_image": true,
+      "has_embedded_player": false,
+      "player_embedded": null,
+      "oembed": null,
+      "id": 73284954,
+      "title": "",
+      "title_formatted": "",
+      "image_url": "https://cdna.artstation.com/p/assets/images/images/073/284/954/large/dima-yakutin-post-3.jpg?1709302450",
+      "width": 3643,
+      "height": 2507,
+      "position": 1,
+      "asset_type": "image",
+      "viewport_constraint_type": "maximized"
+    },
+    {
+      "has_image": true,
+      "has_embedded_player": true,
+      "player_embedded": "<iframe src='https://www.artstation.com/api/v2/animation/video_clips/b400eb23-cbc5-403a-8b2f-edcf7c1689b8/embed.html?s=52a265597c7b4116b0b8392f7c9c0095c422e590f573612a2fade3bf2600a75b&t=1710060255' width='1920' height='2400' frameborder='0' allowfullscreen allows='autoplay; fullscreen' style='max-width: 1920px; max-height: 2400px;'></iframe>",
+      "oembed": {
+        "width": 1920,
+        "height": 2400,
+        "provider_name": "ArtStation"
+      },
+      "id": 73341651,
+      "title": "INSTAGRAM - https://www.instagram.com/p/C4Cwy7fqwwe/ 👀",
+      "title_formatted": "<div class=\"asset-caption\"><p>INSTAGRAM - <a href=\"https://www.instagram.com/p/C4Cwy7fqwwe/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">https://www.instagram.com/p/C4Cwy7fqwwe/</a> 👀</p></div>",
+      "image_url": "https://cdnb.artstation.com/p/assets/video_clips/images/073/341/651/large/dima-yakutin-thumb.jpg?1709450259",
+      "width": 1920,
+      "height": 2400,
+      "position": 2,
+      "asset_type": "video_clip",
+      "viewport_constraint_type": "constrained"
+    },
+    {
+      "has_image": true,
+      "has_embedded_player": false,
+      "player_embedded": null,
+      "oembed": null,
+      "id": 73252808,
+      "title": "",
+      "title_formatted": "",
+      "image_url": "https://cdna.artstation.com/p/assets/images/images/073/252/808/large/dima-yakutin-post-2.jpg?1709230431",
+      "width": 3151,
+      "height": 1130,
+      "position": 4,
+      "asset_type": "image",
+      "viewport_constraint_type": "constrained"
+    },
+    {
+      "has_image": true,
+      "has_embedded_player": false,
+      "player_embedded": null,
+      "oembed": null,
+      "id": 73284829,
+      "title": "",
+      "title_formatted": "",
+      "image_url": "https://cdnb.artstation.com/p/assets/images/images/073/284/829/large/dima-yakutin-post-1.jpg?1709302251",
+      "width": 3151,
+      "height": 2168,
+      "position": 5,
+      "asset_type": "image",
+      "viewport_constraint_type": "maximized"
+    },
+    {
+      "has_image": true,
+      "has_embedded_player": false,
+      "player_embedded": null,
+      "oembed": null,
+      "id": 73285799,
+      "title": "",
+      "title_formatted": "",
+      "image_url": "https://cdnb.artstation.com/p/assets/images/images/073/285/799/large/dima-yakutin-post-33.jpg?1709303692",
+      "width": 3643,
+      "height": 2507,
+      "position": 6,
+      "asset_type": "image",
+      "viewport_constraint_type": "maximized"
+    }
+  ],
+  "collections": [],
+  "user": {
+    "followed": false,
+    "following_back": false,
+    "blocked": false,
+    "is_staff": false,
+    "is_plus_member": false,
+    "is_studio_account": false,
+    "is_school_account": false,
+    "id": 815086,
+    "username": "dimayakutin",
+    "headline": "Hard Surface Concept Artist 🟢 Open to work",
+    "full_name": "Dima Yakutin",
+    "permalink": "https://www.artstation.com/dimayakutin",
+    "medium_avatar_url": "https://cdna.artstation.com/p/users/avatars/000/815/086/medium/62761dca6e4b0e6b2ff2229f4cdefec8.jpg?1706084459",
+    "large_avatar_url": "https://cdna.artstation.com/p/users/avatars/000/815/086/large/62761dca6e4b0e6b2ff2229f4cdefec8.jpg?1706084459",
+    "small_cover_url": "https://cdna.artstation.com/p/users/covers/000/815/086/small/06b4142fd66e8f22506b627161ed0eba.jpg?1700201100",
+    "pro_member": true
+  },
+  "medium": {
+    "name": "Digital 3D",
+    "id": 2
+  },
+  "mediums": [
+    {
+      "name": "Digital 3D",
+      "id": 2
+    },
+    {
+      "name": "Mixed Media",
+      "id": 14
+    }
+  ],
+  "categories": [
+    {
+      "name": "Science Fiction",
+      "id": 6
+    },
+    {
+      "name": "Mecha",
+      "id": 33
+    },
+    {
+      "name": "Hard Surface",
+      "id": 47
+    }
+  ],
+  "software_items": [
+    {
+      "icon_url": "https://cdna.artstation.com/p/softwares/icons/000/000/046/default/zBrush3.png?1505488078",
+      "name": "ZBrush"
+    },
+    {
+      "icon_url": "https://cdna.artstation.com/p/softwares/icons/000/000/032/default/Photoshop.png?1608144074",
+      "name": "Photoshop"
+    }
+  ],
+  "id": 17730487,
+  "user_id": 815086,
+  "title": "Jet Pack. ZBrush WIP #4",
+  "description": "<p>INSTAGRAM:\n<br /><a href=\"https://www.instagram.com/dimayakutin.art/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">https://www.instagram.com/dimayakutin.art/</a>\n<br />Another stage of my police character. This time I've added a Jet Pack to him.</p>",
+  "description_html": "<p>INSTAGRAM:\n<br /><a href=\"https://www.instagram.com/dimayakutin.art/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">https://www.instagram.com/dimayakutin.art/</a>\n<br />Another stage of my police character. This time I've added a Jet Pack to him.</p>",
+  "created_at": "2024-02-25T05:54:51.022-06:00",
+  "updated_at": "2024-03-10T01:36:34.087-06:00",
+  "views_count": 4590,
+  "likes_count": 721,
+  "comments_count": 31,
+  "permalink": "https://www.artstation.com/artwork/YB98gd",
+  "cover_url": "https://cdnb.artstation.com/p/assets/covers/images/073/286/197/medium/dima-yakutin-dima-yakutin-thumbnail.jpg?1709304335",
+  "published_at": "2024-03-04T22:09:39.698-06:00",
+  "editor_pick": false,
+  "adult_content": false,
+  "admin_adult_content": false,
+  "slug": "jet-pack-16",
+  "suppressed": false,
+  "hash_id": "YB98gd",
+  "visible": true,
+  "is_promotional": false
+}
+
+
+### GET request with a header
+GET http://localhost:8000/api/artwork
+Accept: application/json
