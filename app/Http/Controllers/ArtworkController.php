@@ -8,11 +8,12 @@ use App\Models\Asset;
 use Illuminate\Http\Request;
 
 class ArtworkController extends Controller {
-    public function index() {
+    public function index(Request $request) {
+        $perPage = $request->query('per_page', 15);
         $artworks = Artwork::with('artist')
             ->with('assets')
             ->orderBy('created_at', 'DESC')
-            ->paginate(15);
+            ->paginate($perPage);
         return response()->json($artworks);
     }
 
