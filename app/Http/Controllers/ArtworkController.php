@@ -12,7 +12,7 @@ class ArtworkController extends Controller {
         $perPage = $request->query('per_page', 15);
         $artworks = Artwork::with('artist')
             ->with('assets')
-            ->orderBy('created_at', 'ASC')
+            ->orderBy('created_at', 'DESC')
             ->paginate($perPage);
         return response()->json($artworks);
     }
