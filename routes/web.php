@@ -1,9 +1,8 @@
 <?php
 
-use App\Models\Artwork;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    $artwork = Artwork::take(1)->with('assets')->first();
+    $artwork = \App\Models\Asset::inRandomOrder()->get();
     return view('welcome', compact('artwork'));
 });

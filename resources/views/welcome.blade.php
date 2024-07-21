@@ -8,10 +8,8 @@
 </head>
 <body class="bg-[#121212]">
 <a class="w-screen h-screen flex flex-col items-center justify-center" href="https://oranzhevyy.netlify.app/">
-    @if($artwork)
-        <img class="w-full md:w-1/2"
-             src="{{$artwork['assets'][0]['image_url']}}"
-             alt="">
+    @if($artwork && $artwork[0])
+        <img class="h-[calc(100vh-80px)] h-1/2 md:w-1/2" src="{{$artwork[0]['image_url']}}" alt="">
     @endif
     <h1 class="text-slate-900 font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight text-center dark:text-white">
         oranzhevyy.</h1>
